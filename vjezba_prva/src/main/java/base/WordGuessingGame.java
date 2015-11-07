@@ -55,9 +55,8 @@ public class WordGuessingGame {
                 IChromosome fittestChromosome = population.getFittestChromosome();
 
                 String chromosomeValue = getValue(fittestChromosome);
-                System.out.println("solution: " + chromosomeValue);
-                System.out.println("fitness: " + fittestChromosome.getFitnessValue());
-
+                System.out.printf("Nakon %d generacija, naljbolji solution je: %s", i + 1, chromosomeValue);
+                System.out.println("dobrota: " + fittestChromosome.getFitnessValue());
                 System.out.println();
 
                 if (chromosomeValue.equals(inputWord.getContent())) break;
