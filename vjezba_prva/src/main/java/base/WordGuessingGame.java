@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 public class WordGuessingGame {
 
-    public static final int NUMBER_OF_EVOLUTIONS = 20;
+    public static final int NUMBER_OF_EVOLUTIONS = 50;
     public static final int POPULATION_SIZE = 50000;
 
     public static void main(String[] args) {
@@ -50,21 +50,26 @@ public class WordGuessingGame {
 
             Genotype population = Genotype.randomInitialGenotype(conf);
 
+            long start = System.currentTimeMillis();
+            boolean found = false;
+
             for (int i = 0; i < NUMBER_OF_EVOLUTIONS; i++) {
 
                 IChromosome fittestChromosome = population.getFittestChromosome();
 
                 String chromosomeValue = getValue(fittestChromosome);
-                System.out.printf("Nakon %d generacija, naljbolji solution je: %s", i + 1, chromosomeValue);
+                System.out.println(String.format("Nakon %d. generacije, naljbolji rezultat je: %s", i + 1, chromosomeValue));
                 System.out.println("dobrota: " + fittestChromosome.getFitnessValue());
                 System.out.println();
 
-                if (chromosomeValue.equals(inputWord.getContent())) break;
+                found = chromosomeValue.equals(inputWord.getContent());
+                if (found) break;
 
                 population.evolve();
             }
+            long end = System.currentTimeMillis();
 
-            System.out.println("Vaša riječ je pronađena, hvala što ste igrali! (Sljedeći put se potrudite malo više)");
+            System.out.printf("Vaša riječ " + (found ? "je" : "nije") + " pronađena u %s sec, hvala što ste igrali! (Sljedeći put se potrudite malo više)", (((double) end - start) / 1000));
 
         } catch (InvalidConfigurationException e) {
             e.printStackTrace();

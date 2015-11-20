@@ -28,7 +28,7 @@ public class WordDiffFitnessFunction extends FitnessFunction {
             fitness += Math.pow((guessingWord.getContent().charAt(i) - (int) inputWord.getContent().charAt(i)), 2);
         }
 
-        fitness = MAXIMUM_FITNESS - Math.pow(fitness, 2);
+        fitness = MAXIMUM_FITNESS - Math.pow(fitness, 3);
 
         if (fitness < 0) {
             fitness = 0;
@@ -42,10 +42,10 @@ public class WordDiffFitnessFunction extends FitnessFunction {
     }
 
     private Word guessingWord(IChromosome a_subject) {
-        String geneValues = "";
+        StringBuilder geneString = new StringBuilder();
         for (int i = 0; i < a_subject.size(); i++) {
-            geneValues += (String) a_subject.getGene(i).getAllele();
+            geneString.append((String) a_subject.getGene(i).getAllele());
         }
-        return new Word(geneValues);
+        return new Word(geneString.toString());
     }
 }
