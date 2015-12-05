@@ -1,0 +1,131 @@
+CreateTraining: width:16,height:16,type:RGB
+Input: image:./polja/A1.jpg, identity: bijela kula
+Input: image:./polja/A2.jpg, identity: bijeli pijun
+Input: image:./polja/A7.jpg, identity: crni pijun
+Input: image:./polja/A8.jpg, identity: crna kula
+Input: image:./polja/B1.jpg, identity: bijeli konj
+Input: image:./polja/B2.jpg, identity: bijeli pijun
+Input: image:./polja/B7.jpg, identity: crni pijun
+Input: image:./polja/B8.jpg, identity: crni konj
+Input: image:./polja/C1.jpg, identity: bijeli lovac
+Input: image:./polja/C2.jpg, identity: bijeli pijun
+Input: image:./polja/C7.jpg, identity: crni pijun
+Input: image:./polja/C8.jpg, identity: crni lovac
+Input: image:./polja/D1.jpg, identity: bijela kraljica
+Input: image:./polja/D2.jpg, identity: bijeli pijun
+Input: image:./polja/D7.jpg, identity: crni pijun
+Input: image:./polja/D8.jpg, identity: crna kraljica
+Input: image:./polja/E1.jpg, identity: bijeli kralj
+Input: image:./polja/E2.jpg, identity: bijeli pijun
+Input: image:./polja/E7.jpg, identity: crni pijun
+Input: image:./polja/E8.jpg, identity: crni kralj
+Input: image:./polja/F1.jpg, identity: bijeli lovac
+Input: image:./polja/F2.jpg, identity: bijeli pijun
+Input: image:./polja/F7.jpg, identity: crni pijun
+Input: image:./polja/F8.jpg, identity: crni lovac
+Input: image:./polja/G1.jpg, identity: bijeli konj
+Input: image:./polja/G2.jpg, identity: bijeli pijun
+Input: image:./polja/G7.jpg, identity: crni pijun
+Input: image:./polja/G8.jpg, identity: crni konj
+Input: image:./polja/H1.jpg, identity: bijela kula
+Input: image:./polja/H2.jpg, identity: bijeli pijun
+Input: image:./polja/H7.jpg, identity: crni pijun
+Input: image:./polja/H8.jpg, identity: crna kula
+Input: image:./polja/A3.jpg, identity: prazno
+Input: image:./polja/A4.jpg, identity: prazno
+Input: image:./polja/A5.jpg, identity: prazno
+Input: image:./polja/A6.jpg, identity: prazno
+Input: image:./polja/B3.jpg, identity: prazno
+Input: image:./polja/B4.jpg, identity: prazno
+Input: image:./polja/B5.jpg, identity: prazno
+Input: image:./polja/B6.jpg, identity: prazno
+Input: image:./polja/C3.jpg, identity: prazno
+Input: image:./polja/C4.jpg, identity: prazno
+Input: image:./polja/C5.jpg, identity: prazno
+Input: image:./polja/C6.jpg, identity: prazno
+Input: image:./polja/D3.jpg, identity: prazno
+Input: image:./polja/D4.jpg, identity: prazno
+Input: image:./polja/D5.jpg, identity: prazno
+Input: image:./polja/D6.jpg, identity: prazno
+Input: image:./polja/E3.jpg, identity: prazno
+Input: image:./polja/E4.jpg, identity: prazno
+Input: image:./polja/E5.jpg, identity: prazno
+Input: image:./polja/E6.jpg, identity: prazno
+Input: image:./polja/F3.jpg, identity: prazno
+Input: image:./polja/F4.jpg, identity: prazno
+Input: image:./polja/F5.jpg, identity: prazno
+Input: image:./polja/F6.jpg, identity: prazno
+Input: image:./polja/G3.jpg, identity: prazno
+Input: image:./polja/G4.jpg, identity: prazno
+Input: image:./polja/G5.jpg, identity: prazno
+Input: image:./polja/G6.jpg, identity: prazno
+Input: image:./polja/H3.jpg, identity: prazno
+Input: image:./polja/H4.jpg, identity: prazno
+Input: image:./polja/H5.jpg, identity: prazno
+Input: image:./polja/H6.jpg, identity: prazno
+Network: hidden1:100, hidden2:0
+Train: Mode:GUI, Minutes:0, StrategyError:0.50, StrategyCycles:50
+Whatis: image:./polja/A1.jpg
+Whatis: image:./polja/A2.jpg
+Whatis: image:./polja/A3.jpg
+Whatis: image:./polja/A4.jpg
+Whatis: image:./polja/A5.jpg
+Whatis: image:./polja/A6.jpg
+Whatis: image:./polja/A7.jpg
+Whatis: image:./polja/A8.jpg
+Whatis: image:./polja/B1.jpg
+Whatis: image:./polja/B2.jpg
+Whatis: image:./polja/B3.jpg
+Whatis: image:./polja/B4.jpg
+Whatis: image:./polja/B5.jpg
+Whatis: image:./polja/B6.jpg
+Whatis: image:./polja/B7.jpg
+Whatis: image:./polja/B8.jpg
+Whatis: image:./polja/C1.jpg
+Whatis: image:./polja/C2.jpg
+Whatis: image:./polja/C3.jpg
+Whatis: image:./polja/C4.jpg
+Whatis: image:./polja/C5.jpg
+Whatis: image:./polja/C6.jpg
+Whatis: image:./polja/C7.jpg
+Whatis: image:./polja/C8.jpg
+Whatis: image:./polja/D1.jpg
+Whatis: image:./polja/D2.jpg
+Whatis: image:./polja/D3.jpg
+Whatis: image:./polja/D4.jpg
+Whatis: image:./polja/D5.jpg
+Whatis: image:./polja/D6.jpg
+Whatis: image:./polja/D7.jpg
+Whatis: image:./polja/D8.jpg
+Whatis: image:./polja/E1.jpg
+Whatis: image:./polja/E2.jpg
+Whatis: image:./polja/E3.jpg
+Whatis: image:./polja/E4.jpg
+Whatis: image:./polja/E5.jpg
+Whatis: image:./polja/E6.jpg
+Whatis: image:./polja/E7.jpg
+Whatis: image:./polja/E8.jpg
+Whatis: image:./polja/F1.jpg
+Whatis: image:./polja/F2.jpg
+Whatis: image:./polja/F3.jpg
+Whatis: image:./polja/F4.jpg
+Whatis: image:./polja/F5.jpg
+Whatis: image:./polja/F6.jpg
+Whatis: image:./polja/F7.jpg
+Whatis: image:./polja/F8.jpg
+Whatis: image:./polja/G1.jpg
+Whatis: image:./polja/G2.jpg
+Whatis: image:./polja/G3.jpg
+Whatis: image:./polja/G4.jpg
+Whatis: image:./polja/G5.jpg
+Whatis: image:./polja/G6.jpg
+Whatis: image:./polja/G7.jpg
+Whatis: image:./polja/G8.jpg
+Whatis: image:./polja/H1.jpg
+Whatis: image:./polja/H2.jpg
+Whatis: image:./polja/H3.jpg
+Whatis: image:./polja/H4.jpg
+Whatis: image:./polja/H5.jpg
+Whatis: image:./polja/H6.jpg
+Whatis: image:./polja/H7.jpg
+Whatis: image:./polja/H8.jpg
